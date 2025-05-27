@@ -1,0 +1,77 @@
+.navbar {
+  display: flex;
+  align-items: stretch;
+  padding: 1rem;
+  background: #f6dd60;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.navbar-links-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.navbar-logo img {
+  padding: 2rem;
+  width: 10rem;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links ul{
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 2rem;
+  padding: 0;
+}
+
+.navbar-links a {
+    font-size: 1.3rem;
+    text-decoration: none;    
+    color: #333;
+    font-family:monospace;
+    font-weight: 400;
+}
+
+.navbar-links a.active {
+  border-bottom: 0.3rem solid #8BB364;
+}
+
+.cart-widget {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.cart-icon {
+  width: 6.5rem;
+  height: 6.5rem;
+  background-size: contain;
+  display: inline-block;
+}
+@font-face {
+  font-family: 'Manrope';
+  src: url('../assets/Manrope.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.cart-count {
+  margin-left: -3.7rem;
+  padding: 0.5rem 1.5rem;
+  font-family: Manrope;
+  font-size: 1.3rem;
+  color: #8BB364;
+}
