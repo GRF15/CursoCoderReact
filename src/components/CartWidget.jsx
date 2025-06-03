@@ -1,6 +1,6 @@
 import "./NavBar.css";
 
-export default function Carrito() {
+export default function CartWidget() {
   return (
     <div className="cart-widget">
       <span role="img" className="cart-icon"><img src="src/assets/carro.png" alt="carrito" className="cart-icon"/></span>

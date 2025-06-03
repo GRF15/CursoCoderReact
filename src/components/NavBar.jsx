@@ -1,5 +1,4 @@
-import { NavLink } from "react-router-dom";
-import Carrito from "./Carrito.jsx";
+import CartWidget from "./CartWidget.jsx";
 import "./NavBar.css";
 
 export default function NavBar() {
@@ -7,14 +6,15 @@ export default function NavBar() {
     <nav className="navbar">
       <div className="navbar-logo">
         <img src="src/assets/naturalab-logo-transparent.png" alt="NaturaLab Logo" />
-      </div><div className="navbar-links-container">
+      </div>
+      <div className="navbar-links-container">
         <ul className="navbar-links">
-            <li><NavLink to="/"> Inicio</NavLink></li>
-            <li><NavLink to="/Productos">Productos</NavLink></li>
-            <li><NavLink to="/Contacto">Contacto</NavLink></li>
+            <li><a>Cuidado Facial</a></li>
+            <li><a>Cuidado Corporal</a></li>
+            <li><a>Accesorios</a></li>
         </ul>
       </div>
-      <Carrito />
+      <CartWidget />
     </nav>
   );
 }
