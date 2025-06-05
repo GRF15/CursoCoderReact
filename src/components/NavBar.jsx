@@ -9,9 +9,9 @@ export default function NavBar() {
       </div>
       <div className="navbar-links-container">
         <ul className="navbar-links">
-            <li><a>Cuidado Facial</a></li>
-            <li><a>Cuidado Corporal</a></li>
-            <li><a>Accesorios</a></li>
+            <li><a>Futos Secos</a></li>
+            <li><a>Snaks</a></li>
+            <li><a>Merch</a></li>
         </ul>
       </div>
       <CartWidget />
