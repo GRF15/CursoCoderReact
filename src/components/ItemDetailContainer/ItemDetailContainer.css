@@ -1,0 +1,21 @@
+.cargando {
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: #8BB364;
+}
+
+
+.itemDetailContainer {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.itemDetailContainer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  align-items: start;
+}

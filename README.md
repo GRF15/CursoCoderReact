@@ -1,13 +1,45 @@
-# React + Vite
+# NaturaLab - Proyecto React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el proyecto **NaturaLab**, desarrollado por Gabriel Rodriguez como parte del curso de React JS de Coderhouse.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+NaturaLab es una tienda online ficticia de productos naturales, frutos secos y merchandising ecológico. El proyecto está construido con **React** y utiliza **Vite** para el entorno de desarrollo.
 
-## Expanding the ESLint configuration
+## Estado del Proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# CursoCoderReact
+Actualmente, el proyecto se encuentra en desarrollo y corresponde a la **segunda entrega** del curso. El objetivo es completar la **entrega final** en la tercera etapa, incorporando nuevas funcionalidades y mejoras.
+
+## Características
+
+- Navegación con React Router
+- Componentes reutilizables (NavBar, CartWidget, ItemListContainer, etc.)
+- Simulación de carga de productos
+- Estilos personalizados con CSS
+
+## Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repo.git
+   ```
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+## Objetivo del Curso
+
+El objetivo de este proyecto es aplicar los conocimientos adquiridos en React JS, incluyendo el manejo de rutas, componentes, props, estado y efectos, para construir una aplicación web funcional y escalable.
+
+## Autor
+
+Gabriel Rodriguez
+
+---
+
+> Proyecto realizado para la cursada de **React JS** en Coderhouse.

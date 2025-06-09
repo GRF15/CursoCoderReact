@@ -1,0 +1,21 @@
+.productCard {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-family: 'Manrope', monospace;
+    cursor: pointer;
+    border: 1px solid #a7a7a7;
+    border-radius: 10px;
+    background-color: #f6dd60;
+    box-shadow: 20px 30px 40px -10px rgba(0, 0, 0, 0.2);
+}
+
+.productCard img {
+    width: 15rem;
+}
+
+.productCard:hover {
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.3);
+    transform: scale(1.003);
+    transition: all 0.28s ease-in-out;
+}
